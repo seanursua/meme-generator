@@ -10,7 +10,7 @@ Third project on Learn React course on Scrimba
 👉 **Mapping components<br>**
 👉 **Event listeners<br>**
 👉 **State<br>**
-👉 **Conditional Rendering<br>**
+👉 **Conditional rendering<br>**
 👉 **Forms in React<br>**
 👉 **Controlled inputs<br>**
 👉 **Side effects<br>**
