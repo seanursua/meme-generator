@@ -8,12 +8,12 @@ Third project on Learn React course on Scrimba
 👉 **Destructuring props<br>**
 👉 **array.map()<br>**
 👉 **Mapping components<br>**
+👉 **Event listeners<br>**
 👉 **State<br>**
-👉 **useState<br>**
 👉 **Conditional Rendering<br>**
 👉 **Forms in React<br>**
 👉 **Controlled inputs<br>**
-👉 **useEffect<br>**
+👉 **Side effects<br>**
 👉 **async function<br>**
 
 You can view the project [here](https://scrimba-memegenerator.netlify.app/)
