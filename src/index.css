@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 40px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.header--icon {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 15px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid #d5d4d8;
+  text-indent: 10px;
+}
+
+.form--button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meme--image {
+  width: 100%;
+  padding-block: 36px;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--text {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  padding-block: 15px 18px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    display: grid;
+    grid-template: 40px 40px 40px / 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .meme--text {
+    font-size: 1.3rem;
+    padding-block: 20px 25px;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  .header--project {
+    display: none;
+  }
+  .form--input,
+  .form--button {
+    font-size: 0.75rem;
+  }
+  .meme--text {
+    font-size: 0.9rem;
+    padding-block: 25px 30px;
+  }
+}
